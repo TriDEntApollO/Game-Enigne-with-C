@@ -3,7 +3,7 @@
 
 #include "types.h"
 
-typedef struct {
+typedef struct time_state {
     f32 delta;
     f32 now;
     f32 last;

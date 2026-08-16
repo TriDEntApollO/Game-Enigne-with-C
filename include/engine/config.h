@@ -4,7 +4,7 @@
 #include "input.h"
 #include "types.h"
 
-typedef struct {
+typedef struct config_state {
     u8 keybinds[6];
 } ConfigState;
 

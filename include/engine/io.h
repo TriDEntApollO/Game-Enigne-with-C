@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-typedef struct {
+typedef struct file {
     char *data;
     size_t size;
     bool is_valid;

@@ -1,7 +1,7 @@
 #ifndef GAME_ENGINE_INPUT_H
 #define GAME_ENGINE_INPUT_H
 
-typedef enum {
+typedef enum input_key {
     INPUT_KEY_LEFT,
     INPUT_KEY_RIGHT,
     INPUT_KEY_UP,
@@ -10,13 +10,13 @@ typedef enum {
     INPUT_KEY_ESCAPE,
 } InputKey;
 
-typedef enum {
+typedef enum key_state {
     KS_UNPRESSED,
     KS_PRESSED,
     KS_HELD,
 } KeyState;
 
-typedef struct {
+typedef struct input_state {
     KeyState left;
     KeyState right;
     KeyState up;

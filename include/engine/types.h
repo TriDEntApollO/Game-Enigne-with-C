@@ -1,6 +1,7 @@
 #ifndef GAME_ENGINE_TYPES_H
 #define GAME_ENGINE_TYPES_H
 
+#include <stddef.h>
 #include <inttypes.h>
 
 typedef uint8_t  u8;
@@ -13,5 +14,6 @@ typedef int32_t  i32;
 typedef int64_t  i64;
 typedef float    f32;
 typedef double   f64;
+typedef size_t   usize;
 
 #endif // GAME_ENGINE_TYPES_H

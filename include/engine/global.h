@@ -7,11 +7,10 @@
 #include "config.h"
 
 
-typedef struct {
+typedef struct global_state {
     TimeState time;
     InputState input;
     ConfigState config;
-    RenderState render;
 } Global;
 
 extern Global global;
